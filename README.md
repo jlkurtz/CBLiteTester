@@ -14,7 +14,7 @@ Thanks, Amrish!
 Create a config.xml file in the directory from which the 
 CLI will run. 
 #### Run pull replication
-java -jar CBLiteTester-cli.jar -username <user-name> -password <password> -channels <channel>,<channel>
+java -jar CBLiteTester-cli.jar -username \<user-name\> -password \<password\> -channels \<channel\>,\<channel\>
 
 ## Getting Started
 For your convenience, I have uploaded a pre-built binary to the [Releases](https://github.com/amrishraje/CBLiteTester/releases) tab. Currently, the binary is tested for Windows only.
