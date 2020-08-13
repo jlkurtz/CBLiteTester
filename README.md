@@ -1,6 +1,20 @@
-# CBLiteTester 
+# CBLiteTester (plus CBLiteTester-cli)
 ###### version 1.2
 This app provides a UI to create a local Couchbase Lite DB and Sync Data to the DB from a Couchbase Sync Gateway. It provides features to search for documents in the CBLite DB, selectively sync certain channels and supports both Pull and Push replication.
+
+## Command Line Interface
+This fork of [CBLiteTester](https://github.com/amrishraje/CBLiteTester) adds a CLI for a specific scenario, 
+a one-time pull replication. That's it. Nothing else. :) The original project provided a quick starting point 
+for my single use case.
+
+Thanks, Amrish!
+
+### CLI Usage
+#### Create config.xml
+Create a config.xml file in the directory from which the 
+CLI will run. 
+#### Run pull replication
+java -jar CBLiteTester-cli.jar -username <user-name> -password <password> -channels <channel>,<channel>
 
 ## Getting Started
 For your convenience, I have uploaded a pre-built binary to the [Releases](https://github.com/amrishraje/CBLiteTester/releases) tab. Currently, the binary is tested for Windows only.
